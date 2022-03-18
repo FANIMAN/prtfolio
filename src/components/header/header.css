@@ -1,0 +1,141 @@
+header {
+    height: 140vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: left;
+    height: 100%;
+    position: relative;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem; */
+}
+
+
+/* CTA */
+
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: left;
+}
+
+/* HEADER SOCIALS */
+
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    /* left: -55px; */
+    bottom: 3rem;
+}
+
+.header__socials::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* ME */
+
+/* .me {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 5rem;
+    border-radius: 10rem 10rem 0 0;
+    overflow: hidden;
+    padding: 0rem -5rem 0rem 0rem;
+} */
+
+/* .about__me {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(
+        45deg,
+        transparent,
+        var(--color-primary),
+        transparent
+    );
+    display: grid;
+    place-items: center;
+} */
+
+.me {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 22rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top:18%;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+    padding: 0rem -5rem 0rem 0rem;
+}
+
+.me:hover {
+    transform: rotate(0);
+}
+
+/* .me:hover {
+    color: var(--color-primary);
+} */
+
+/* SCROLL DOWN */
+
+
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    /* right: -8.9rem; */
+    /* right: -12%; */
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/* .scroll__down::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+} */
+
+
+
+
+/* Media Queries  for medium devices */
+
+@media screen  and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }     
+    
+}
+
+
+/* Media Queries  for small devices */
+@media screen  and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+
+    .header__socials,
+    .scroll__down {
+        display: none;
+    }
+    
+}
