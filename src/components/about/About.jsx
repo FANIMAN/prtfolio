@@ -43,9 +43,10 @@ const About = () => {
                     <p>
                         Hello :) I.m Fantahun, a software engineer based in Addis Ababa, ET.  <br/> 
                         <br/>
-                Self-motivated Freelance Mobile and Web App Developer with a high level of experience working on
-multiple projects. Passionate and hardworking with a penchant for meeting deadlines. Interested in role
-with the company promoting best practices and offering diverse customer projects.
+                        Well-qualified Full Stack Developer familiar with wide range of programming
+                    utilities and languages. Knowledgeable of backend and frontend development
+                    requirements. Handles any part of process with ease. Collaborative team player
+                    with excellent technical abilities and offering diverse customer projects.
                     </p>
 
                     <a href="#contact" className='btn btn-primary'> Let's Talk</a>
