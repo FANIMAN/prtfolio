@@ -14,21 +14,32 @@ const Header = () => {
                 <h2 className="text-light">Fullstack Web and Mobile App Developer   </h2>
                 {/* <h3>I'm a software engineer based in Addis Ababa, ET</h3> */}
                 <CTA/>
-                <HeaderSocials/>
 
-                <div className="me">
-                        <img src={ME} alt="me"/>
-                 </div>
-
-                {/* <div className="about__me">
-                    <div className="me">
-                        <img src={ME} alt="me"/>
+                <div className="row">
+                    <div className="col-sm-4">
+                    <HeaderSocials/>
                     </div>
-                </div> */}
+                    <div className="col-sm-4 me">
+                    <img src={ME} alt="me"/>
+                    </div>
+                    <div className="col-sm-4">
+                    <ScrollDown/>
+                    </div>
+                </div>
+
+
+                {/* <HeaderSocial */}
+                
+
+                {/* <div className="me">
+                       
+                 </div> */}
+
+            
 
               
 
-                <ScrollDown/>
+                {/* <ScrollDown/> */}
 
                 {/* <a href="#contact" className='scroll__down'>Scroll Down</a>  */}
                 

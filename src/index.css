@@ -48,6 +48,7 @@ html{
 
 body {
     background: var(--color-bg);
+    background-color: var(--color-bg);;
     font-family: 'Poppins', sans-serif;
     /* background: var(--color-bg); */
     color: var(--color-white);
@@ -96,6 +97,7 @@ section > h2 {
 a {
     color: var(--color-primary);
     transition: var(--transition);
+    text-decoration: none;
 }
 
 a:hover {
